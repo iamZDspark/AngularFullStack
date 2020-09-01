@@ -1,0 +1,15 @@
+h1{
+    font-size:3m;
+    text-shadow: -3px -3px 3px gray;
+}
+p{
+    color:gray;
+    font-style: italic;
+    padding:0px;
+    margin-bottom: 0px;
+}
+
+.header{
+    border-bottom: 1px solid gray;
+    padding-bottom:0px;
+}
