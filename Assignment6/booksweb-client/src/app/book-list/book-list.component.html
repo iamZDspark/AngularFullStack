@@ -1,0 +1,43 @@
+
+<h1 class="page-title">Books</h1>
+
+<input type='checkbox'  [checked]='showImages'  (click)='toggleImages()'  /> Show Covers
+
+<table class="table table-condensed">
+    <thead>
+        <tr>
+            <th *ngIf='showImages'>
+                Poster
+                <ca-range></ca-range>
+            </th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr  *ngFor='let book of books' >
+
+
+
+            <td *ngIf='showImages'   >  
+                <img [hidden]='!showImages'  [src]='book.cover'  [style.width.px]='imageWidth' >
+            </td>
+            <td>{{book.title}}</td>
+            <td>{{book. author}}</td>
+            <td>{{book.price}}</td>
+            <td>
+                {{book.rating}}
+                
+
+            </td>
+        </tr>
+     
+        
+    </tbody>
+</table>
+
+
+<hr/>
+<p class='tags'>Total books: {{books.length}}</p>
