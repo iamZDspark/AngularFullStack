@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./node_modules/bootstrap/dist/css/bootstrap.min.css' >
+    <link rel='stylesheet' href='./node_modules/font-awesome/css/font-awesome.min.css' >
+    <title>Document</title>
+</head>
+<body>
+    <h1 class='jumbotron' ><i class="fa fa-book"></i>Hello World</h1>    
+    <p class='text-danger'>This is first para</p>
+    <p>This is Second Para</p>
+    <span>I am not a para, just a span</span>
+    <p>This is third Para</p>
+    <p>This is the last para</p>
+</body>
+
+<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+<script>
+    $('p').click( function(){
+
+        $(this).hide();
+    })
+</script>
+
+</html>

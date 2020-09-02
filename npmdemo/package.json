@@ -1,0 +1,16 @@
+{
+  "name": "npmdemo",
+  "version": "1.0.0",
+  "description": "This is a simple npm demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vivek Dutta Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1"
+  }
+}
