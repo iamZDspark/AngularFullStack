@@ -1,0 +1,90 @@
+[
+        {
+            "title": "The Count of Monte Cristo",
+            "author": "Alexandre Dumas",
+            "description": "The story of a person wrongly implicated for a false crime and is send to prison. He returns  to seek the vengeane, love and justice.",
+            "bookId": "7126",
+            "price": 450,
+            "rating": 4.8,
+            "cover":"",
+            "tags": "Crime,Adventure,Classic,Best-Seller,Revenge,Justice"
+
+        },
+        {
+            "title": "Kane And Abel",
+            "author": "Jeffrey Archer",
+            "description": "story of two men born on the same date on opposite side of the globe and economy and years later fate brings them for a head on collission. The best selling book by the author.",
+            "bookId": "78983",
+            "price": 220,
+            "rating": 3.5,
+            "cover":"",
+            "tags": "best-seller,chronology"
+        },
+        {
+            "title": "Rashmirathi",
+            "author": "Ramdhari Singh Dinkar",
+            "description": "A poetic tale of Karna of Mahabharat. The seven chapter gives a glimpse of the life and harship of one of the greatest warrior of his time",
+            "bookId": "10588193",
+            "price": 450,
+            "rating": 4.5,
+            "cover":"",
+            "tags": "classic, poetry, mahabharat, karna, hindi"
+        },
+        {
+            "title": "Ram Charitra Manas",
+            "bookId": "129876",
+            "author": "Tusi Das",
+            "description": "The depiction of imortal tale of Ramyana written in 16 century",
+            "price": 450,
+            "rating": 5.0,
+            
+            "cover":"",
+            "tags": "classic, ramayana, epic"
+        },
+        {
+            "title": "Mahabharat",
+            "author": "Ved Vyas",
+            "description": "The Greatest epic ever written in any language or culture. The story potrays not just the family feud of Hastinapur Royal family, but also narrates the circumstances that engulfed entire Aryavart to a war of epic proportion. The cherry on the top isthe divine knowledge of Gita",
+            "bookId": "24753295",
+            "price": 450,
+            "rating": 4.6,
+            "cover":"",            
+            "tags": "classic, mahabharat, gita, krishna , epic"
+        },
+
+        {
+            "title": "My Experiments with Truth",
+            
+            "author": "Mahatma Gandhi",
+            "description": "An autobiography of Mohandas Karmachand \"Mahatma\" Gandhi, The father of the Indian Nation and the man of the century. The autobiography is his attempt at the undiluted and hard truth. ",
+            "bookId": "112803",
+            "price": 110,
+            "rating": 4.0,
+            "cover":"",
+            "tags": "classic,autobiography, gandhi"
+        },
+
+
+        {
+            "title": "Sons of Fortune",
+            "author": "Jeffrey Archer",
+            "description": "Two brothers separated at birth, grow up following their path finally reaching for the top post of the prime minister of Britain. Only one of them would get the coveted post ",
+            "bookId": "78985",
+            "price": 210,
+            "rating": 2.5,
+            "cover":"",
+            "tags": "best-seller,chronology"
+        },
+
+        {
+            "title": "A Prison of Birth",            
+            "author": "Jeffrey Archer",
+            "description": "An attempt at the modern retelling of \"The Count of Monte Cristo\". The story is set in contemporary 21st century. ",
+            "bookId": "1611988",
+            "price": 270,
+            "rating": 2.5,
+            "cover":"",
+            "tags": "best-seller,chronology, adaptation"
+        }
+
+    ]
