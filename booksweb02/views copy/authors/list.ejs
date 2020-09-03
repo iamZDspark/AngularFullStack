@@ -1,0 +1,28 @@
+
+    <h1>List of Authors</h1>
+    <a class='btn btn-primary' href='/authors/create'>Add Author</a>
+    <table class='table table-condensed'>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Book's Count</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <% for(let author of authors){  %>
+            <tr>
+                <td><%= author.name %></td>
+                <td><%= author.books.length%></td>
+                <td>
+                    <a class='btn btn-sm btn-primary' href='/authors/details/<%=author.id%>'>Details</a>
+                    <a class='btn btn-sm btn-primary' href='/authors/edit/<%=author.id%>'>Edit</a>
+                    <a class='btn btn-sm btn-danger' href='/authors/delete/<%=author.id%>'>Delete</a>
+                </td>
+            </tr>
+            <%}%>
+
+        </tbody>
+
+    </table>

@@ -1,0 +1,23 @@
+{
+  "name": "booksmangment-api",
+  "version": "1.0.0",
+  "description": "webserver api for BMS",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "swati bhagtani",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "http-errors": "~1.6.3",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.2",
+    "morgan": "~1.9.1"
+  }
+}
