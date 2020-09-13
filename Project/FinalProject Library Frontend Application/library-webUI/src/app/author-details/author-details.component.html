@@ -1,0 +1,24 @@
+<mat-card class="example-card">
+    <mat-card-header>
+        <mat-card-title>{{author.Name}}</mat-card-title>
+        <mat-card-subtitle>{{author.Email}}</mat-card-subtitle>
+    </mat-card-header>
+
+    <img mat-card-image src={{author.Photograph}} style="width: auto; height: auto; padding-left: 20px; max-width: 400px; max-height: 400px;">
+    <mat-card-content>
+        <p>{{author.Biography}}</p>
+
+    </mat-card-content>
+    <table mat-table [dataSource]="author.Books" class="mat-elevation-z8">
+
+        <!-- Book Column -->
+        <ng-container matColumnDef="book">
+            <th mat-header-cell *matHeaderCellDef> Books </th>
+            <td mat-cell *matCellDef="let book">{{book.Title}}</td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+</mat-card>
