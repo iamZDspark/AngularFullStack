@@ -1,0 +1,46 @@
+<mat-form-field class="example-form-field">
+    <mat-label>Poster</mat-label>
+    <input matInput type="text" [(ngModel)]="book.Poster" required>
+    <button mat-button *ngIf="book.Poster" matSuffix mat-icon-button aria-label="Clear" (click)="book.Poster=''">
+        <mat-icon>close</mat-icon>
+    </button>
+</mat-form-field>
+
+<mat-form-field class="example-form-field">
+    <mat-label>Title</mat-label>
+    <input matInput type="text" [(ngModel)]="book.Title" required>
+    <button mat-button *ngIf="book.Title" matSuffix mat-icon-button aria-label="Clear"
+        (click)="book.Title=''">
+        <mat-icon>close</mat-icon>
+    </button>
+</mat-form-field>
+
+<mat-form-field class="example-form-field" appearance="fill">
+    <mat-label>Author</mat-label>
+    <mat-select id="author-select-dropdown" [(ngModel)]="selectedAuthor">
+      <mat-option *ngFor="let author of authors" [value]="author._id">
+        {{author.Name}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+<mat-form-field class="example-form-field">
+    <mat-label>Price</mat-label>
+    <input matInput type="text" [(ngModel)]="book.Price" required>
+    <button mat-button *ngIf="book.Price" matSuffix mat-icon-button aria-label="Clear"
+        (click)="book.Price=''">
+        <mat-icon>close</mat-icon>
+    </button>
+</mat-form-field>
+
+<mat-form-field class="example-form-field">
+    <mat-label>Rating</mat-label>
+    <input matInput type="text" [(ngModel)]="book.Rating" required>
+    <button mat-button *ngIf="book.Rating" matSuffix mat-icon-button aria-label="Clear"
+        (click)="book.Rating=''">
+        <mat-icon>close</mat-icon>
+    </button>
+</mat-form-field>
+
+
+<button mat-raised-button color="primary" class="add-author-button" (click)="addBook()">Add Book</button>

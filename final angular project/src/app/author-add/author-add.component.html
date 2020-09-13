@@ -1,0 +1,36 @@
+<mat-form-field class="example-form-field">
+    <mat-label>Author Name</mat-label>
+    <input matInput type="text" [(ngModel)]="author.Name" required>
+    <button mat-button *ngIf="author.Name" matSuffix mat-icon-button aria-label="Clear" (click)="author.Name=''">
+        <mat-icon>close</mat-icon>
+    </button>
+</mat-form-field>
+
+<mat-form-field class="example-form-field">
+    <mat-label>Biography</mat-label>
+    <input matInput type="text" [(ngModel)]="author.Biography" required>
+    <button mat-button *ngIf="author.Biography" matSuffix mat-icon-button aria-label="Clear"
+        (click)="author.Biography=''">
+        <mat-icon>close</mat-icon>
+    </button>
+</mat-form-field>
+
+<mat-form-field class="example-form-field">
+    <mat-label>Email</mat-label>
+    <input matInput tplaceholder="pat@example.com" [formControl]="email" required>
+    <button mat-button *ngIf="author.Email" matSuffix mat-icon-button aria-label="Clear" (click)="author.Email=''">
+        <mat-icon>close</mat-icon>
+    </button>
+    <mat-error *ngIf="email.invalid">{{getEmailErrorMessage()}}</mat-error>
+</mat-form-field>
+
+<mat-form-field class="example-form-field">
+    <mat-label>Photograph</mat-label>
+    <input matInput type="text" [(ngModel)]="author.Photograph" required>
+    <button mat-button *ngIf="author.Photograph" matSuffix mat-icon-button aria-label="Clear"
+        (click)="author.Photograph=''">
+        <mat-icon>close</mat-icon>
+    </button>
+</mat-form-field>
+
+<button mat-raised-button color="primary" class="add-author-button" (click)="addAuthor()">Add Author</button>
